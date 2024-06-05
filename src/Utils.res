@@ -12,13 +12,14 @@ module SelectAtom = Utils__SelectAtom
 
 module Loadable = Utils__Loadable
 
+module FreezeAtom = Utils__FreezeAtom
+
 include Utils__Hooks
 
 // TODO: Add missing utils
 // - atomWithObservable
 // - atomWithHash
 // - useAtomCallback
-// - freezeAtom
 // - splitAtom
 // - waitForAll
 // - useHydrateAtoms
